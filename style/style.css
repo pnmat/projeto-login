@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+/*
+  Cores
+  Verde: #49a09d
+  Lilás: #5f2c82
+
+*/
+
+:root{
+  --color1: #49a09d;
+  --color2: #5f2c82;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Mobile Version */
+
+@media screen and (max-width: 767px){
+
+body{
+  background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+  height: 100%;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  padding: 5px;
+}
+
+p{
+  text-align: justify;
+  padding: 10px;
+}
+
+#img{
+  height: 20vh;
+  background-image: url(../image/build.jpg);
+  background-position: center bottom;
+  background-size: auto;
+  
+}
+
+.campo {
+  padding: 5px;
+  background-color: var(--color2);
+  margin-top: 5px;
+  border-radius: 5px;
+  display: block; 
+}
+
+#email{
+ background-color: var(--color1);
+ padding: 8px;
+ border-radius: 8px;
+}
+
+#pwd{
+  background-color: var(--color1);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  background-color: white;
+  width: 250px;
+  height: 515px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 45%);
+  transform: translate(-50%, -50%);
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
+  padding: 5px;
+}
+
+.btnEntrar{
+  margin-top: 8px;
+  font-size: 1.2em;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--color1);
+  padding: 5px;
+  color: white;
+}
+
+.btnSenha{
+  margin-top: 8px;
+  font-size: 1.2em;
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--color1);
+}
+
+
+}
+
+
+/* TABLET VERSION */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body{
+    background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    height: 100vh;
+  }
+
+  h1{
+    text-align: center;
+    padding: 5px;
+  }
+
+  #login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: white;
+    width: 85vh;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 45%);
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    padding: 5px;
+  }
+
+  .btnEntrar{
+    margin-top: 8px;
+    font-size: 1.2em;
+    width: 48.3%;
+    border-radius: 5px;
+    background-color: var(--color1);
+    padding: 5px;
+    color: white;
+  }
+
+  .btnEntrar:hover{
+    background-color: #234b49;
+  }
+
+  .btnSenha{
+    margin-top: 8px;
+    font-size: 1.2em;
+    width: 47.5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color1);
+    
+  }
+
+  .btnSenha:hover{
+    background-color: #72f0ec;
+  }
+
+  #pwd{
+    background-color: var(--color1);
+    padding: 8px;
+    border-radius: 8px;
+    width: 275px;
+  }
+
+  #img{
+    height: 100%;
+    width: 50%;
+    background-image: url(../image/build.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    float: right;
+  }
+  
+  .campo {
+    padding: 5px;
+    background-color: var(--color2);
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block; 
+    width: 350px;
+  }
+
+  div.campo > input {
+   transform: translateY(-10px);
+}
+  
+  #email{
+   background-color: var(--color1);
+   padding: 8px;
+   border-radius: 8px;
+   width: 275px;
+  }
+
+}
+
+/* Desktop VERSION */
+@media screen and (min-width: 992px) {
+  
+  body{
+    background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    height: 100vh;
+  }
+
+  h1{
+    text-align: center;
+    padding: 5px;
+  }
+
+  #form{
+    
+  }
+
+  #login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: white;
+    width: 100vh;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 45%);
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    padding: 5px;
+  }
+
+  .btnEntrar{
+    margin-top: 8px;
+    font-size: 1.2em;
+    width: 48.3%;
+    border-radius: 5px;
+    background-color: var(--color1);
+    padding: 5px;
+    color: white;
+  }
+
+  .btnEntrar:hover{
+    background-color: #234b49;
+  }
+
+  .btnSenha{
+    margin-top: 8px;
+    font-size: 1.2em;
+    width: 47.5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color1);
+    
+    
+  }
+
+  .btnSenha:hover{
+    background-color: #72f0ec;
+  }
+
+  #pwd{
+    background-color: var(--color1);
+    padding: 8px;
+    border-radius: 8px;
+    width: 350px;
+  }
+
+  #img{
+    height: 100%;
+    width: 50%;
+    background-image: url(../image/build.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    float: right;
+  }
+  
+  .campo {
+    padding: 5px;
+    background-color: var(--color2);
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block; 
+    width: 426px;
+  }
+
+  div.campo > input {
+   transform: translateY(-10px);
+}
+  
+  #email{
+   background-color: var(--color1);
+   padding: 8px;
+   border-radius: 8px;
+   width: 350px;
+  }
+
+}
+
