@@ -218,10 +218,6 @@ p{
     padding: 5px;
   }
 
-  #form{
-    
-  }
-
   #login {
     position: absolute;
     top: 50%;
@@ -241,7 +237,7 @@ p{
   .btnEntrar{
     margin-top: 8px;
     font-size: 1.2em;
-    width: 48.3%;
+    width: 410px;
     border-radius: 5px;
     background-color: var(--color1);
     padding: 5px;
@@ -255,7 +251,7 @@ p{
   .btnSenha{
     margin-top: 8px;
     font-size: 1.2em;
-    width: 47.5%;
+    width: 405px;
     text-align: center;
     display: block;
     border: 1px solid black;
@@ -275,7 +271,7 @@ p{
     background-color: var(--color1);
     padding: 8px;
     border-radius: 8px;
-    width: 350px;
+    width: 330px;
   }
 
   #img{
@@ -293,7 +289,8 @@ p{
     margin-top: 5px;
     border-radius: 5px;
     display: block; 
-    width: 426px;
+    width: 400px;
+    
   }
 
   div.campo > input {
@@ -304,7 +301,7 @@ p{
    background-color: var(--color1);
    padding: 8px;
    border-radius: 8px;
-   width: 350px;
+   width: 330px;
   }
 
 }
