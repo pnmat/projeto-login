@@ -216,7 +216,11 @@ p{
 
   h1{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+  }
+
+  p {
+    margin-left: 3px;
   }
 
   #login {
@@ -232,7 +236,7 @@ p{
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-    padding: 5px;
+
   }
 
   .btnEntrar{
@@ -243,6 +247,7 @@ p{
     background-color: var(--color1);
     padding: 5px;
     color: white;
+    margin-left: 3px;
   }
 
   .btnEntrar:hover{
@@ -260,8 +265,7 @@ p{
     border-radius: 5px;
     text-decoration: none;
     color: var(--color1);
-    
-    
+    margin-left: 3px;
   }
 
   .btnSenha:hover{
@@ -291,7 +295,7 @@ p{
     border-radius: 5px;
     display: block; 
     width: 400px;
-    
+    margin-left: 3px;
   }
 
   div.campo > input {
